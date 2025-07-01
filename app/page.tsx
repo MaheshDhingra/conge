@@ -16,6 +16,7 @@ const gameButtonStyle = {
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', background: 'var(--background)', color: 'var(--foreground)' }}>
       <div style={{ maxWidth: 420, textAlign: 'center', padding: 36, borderRadius: 18, boxShadow: '0 4px 24px rgba(0,0,0,0.10)', marginBottom: 32 }}>
         <span style={{ fontSize: 48, display: 'block', marginBottom: 18 }}>🎮</span>
@@ -33,5 +34,27 @@ export default function Home() {
         </div>
       </div>
     </main>
+=======
+    <>
+      <h1>My Games</h1>
+      <ul>
+        <li>
+          <Link href="/game1">
+            Game 1
+          </Link>
+        </li>
+        <li>
+          <Link href="/game2">
+            Game 2
+          </Link>
+        </li>
+        <li>
+          <Link href="/game3">
+            Game 3
+          </Link>
+        </li>
+      </ul>
+    </>
+>>>>>>> 21a56df34bfa9ef4144240397d5295be97d06742
   );
 }

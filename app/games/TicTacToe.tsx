@@ -43,7 +43,7 @@ export default function TicTacToe() {
     setXIsNext(true);
   }
 
-  let status = winner
+  const status = winner
     ? `Winner: ${winner}`
     : squares.every(Boolean)
     ? "Draw!"

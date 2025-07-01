@@ -1,5 +1,4 @@
 import Link from "next/link";
-import TicTacToe from "./games/TicTacToe";
   
 const gameButtonStyle = {
   background: '#4f8cff',
